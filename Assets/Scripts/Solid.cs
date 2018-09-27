@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Part : Solid
+[RequireComponent(typeof(Collider2D))]
+public class Solid : MonoBehaviour
 {
 
 }
